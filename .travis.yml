@@ -1,0 +1,39 @@
+language: php
+
+php:
+  - '5.6'
+
+cache:
+  directories:
+    - node_modules
+    - vendor
+
+before_install:
+  - npm install npm@latest -g
+  - cp .env .env
+  - composer self-update
+  - composer install --no-interaction
+  - npm install
+
+script:
+  - vendor/bin/phpunit
+  - npm --version
+  - npm run production
+
+notifications:
+  email:
+    recipients:
+      - basri.official.acc@gmail.com
+      - basri.basreen@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
+
+# after_success:
+
+# before_deploy:
+
+# deploy:
+
+# after_deploy:
+
+# after_script:

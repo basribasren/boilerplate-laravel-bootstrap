@@ -1,0 +1,43 @@
+version: 1.0.{build}
+platform:
+  - x64
+
+branches:
+  only:
+    - master
+
+environment:
+  matrix:
+    - nodejs_version: "8"
+
+install:
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  - npm install npm@latest -g
+  - npm install yarn -g
+
+# Finish on first failed build
+matrix:
+  fast_finish: true
+
+# Disable Visual Studio build and deploy
+build: off
+deploy: off
+
+test_script:
+  - node --version
+  - npm --version
+  - yarn --version
+  - yarn install
+  - yarn build
+  - yarn test
+
+cache:
+  - node_modules
+
+notifications:
+  # Email
+  - provider: Email
+    to:
+      - basri.official.acc@gmail.com
+      - basri.basreen@gmail.com
+    on_build_status_changed: true
