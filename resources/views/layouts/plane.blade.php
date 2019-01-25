@@ -12,6 +12,8 @@
 	<meta content="" name="description"/>
 	<meta content="" name="author"/>
 
+	<link rel="stylesheet" href="{{ asset("assets/stylesheets/bootstrap.css") }}" />
+	<link rel="stylesheet" href="{{ asset("assets/stylesheets/font-awesome.css") }}" />
 	<link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
 </head>
 <body>
