@@ -25,14 +25,13 @@ mix.autoload({
  | file for the application as well as bundling up all the JS files.
  |
  */
-// mix.sass('resources/assets/sass/bootstrap.scss', 'public/assets/')
+mix.sass('resources/assets/sass/bootstrap.scss', 'public/assets/stylesheets');
 mix.sass('resources/assets/sass/font-awesome.scss', 'public/assets/stylesheets');
 	// .copy('node_modules/metismenu/dist/metisMenu.min.css', 'public/assets/stylesheets/metismenu.css')
 	// mix.copy('node_modules/popper.js/dist/popper.js', 'public/assets/scripts')
 	// .copy('node_modules/chart.js/dist/Chart.js', 'public/assets/scripts');
 
 mix.styles([
-		'node_modules/bootstrap/dist/css/bootstrap.css',
 		'node_modules/metismenu/dist/metisMenu.css',
 	    'resources/assets/css/sb-admin-2.css',
 	    'resources/assets/css/timeline.css'
