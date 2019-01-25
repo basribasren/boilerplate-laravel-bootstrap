@@ -32,10 +32,7 @@ mix.sass('resources/assets/sass/font-awesome.scss', 'public/assets/stylesheets')
 	// .copy('node_modules/chart.js/dist/Chart.js', 'public/assets/scripts');
 
 mix.styles([
-		'node_modules/bootstrap/dist/css/bootstrap.css', 
-		'node_modules/@fortawesome/fontawesome-free/css/fontawesome.css', 
-		'node_modules/@fortawesome/fontawesome-free/css/brands.css', 
-		'node_modules/@fortawesome/fontawesome-free/css/solid.css', 
+		'node_modules/bootstrap/dist/css/bootstrap.css',
 		'node_modules/metismenu/dist/metisMenu.css',
 	    'resources/assets/css/sb-admin-2.css',
 	    'resources/assets/css/timeline.css'
