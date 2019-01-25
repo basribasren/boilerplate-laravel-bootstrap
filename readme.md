@@ -1,12 +1,3 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
 # boilerplate-laravel-bootstrap
 
 [![Build Status](https://travis-ci.org/basribasren/boilerplate-laravel-bootstrap.svg?branch=master)](https://travis-ci.org/basribasren/boilerplate-laravel-bootstrap) [![Build status](https://ci.appveyor.com/api/projects/status/weuboxr8dwbpp0q2?svg=true)](https://ci.appveyor.com/project/basribasren/boilerplate-laravel-bootstrap) [![dependencies Status](https://david-dm.org/basribasren/boilerplate-laravel-bootstrap/status.svg)](https://david-dm.org/basribasren/boilerplate-laravel-bootstrap) ![GitHub All Releases](https://img.shields.io/github/downloads/basribasren/boilerplate-laravel-bootstrap/total.svg) [![GitHub license](https://img.shields.io/github/license/basribasren/boilerplate-laravel-bootstrap.svg)](https://github.com/basribasren/boilerplate-laravel-bootstrap/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/basribasren/boilerplate-laravel-bootstrap.svg)](https://github.com/basribasren/boilerplate-laravel-bootstrap/commits/master)
@@ -19,39 +10,11 @@ Tools : Laravel, Bootstrap, Webpack, compoers, artisan, bootstrap admin theme.
 <!-- prettier-ignore -->
 | Project | Status | Description |
 |---------|--------|-------------|
-| [react]          | [![react-status]][react-package] | A declarative, efficient, and flexible JavaScript library for building user interfaces. |
-| [redux]          | [![redux-status]][redux-package] | Predictable state container for JavaScript apps. |
-| [materialui]          | [![materialui-status]][materialui-package] | React components that implement Google's Material Design. |
-| [babel]          | [![babel-status]][babel-package] | Babel is a compiler for writing next generation JavaScript. |
-| [webpack]          | [![webpack-status]][webpack-package] | A bundler for javascript and friends. |
-| [workbox]          | [![workbox-status]][workbox-package] | JavaScript libraries for Progressive Web Apps. |
-| [prettier]          | [![prettier-status]][prettier-package] | Prettier is an opinionated code formatter. |
-| [eslint]          | [![eslint-status]][eslint-package] | A fully pluggable tool for identifying and reporting on patterns in JavaScript. |
+| [laravel]          | [![laravel-status]][laravel-package] | A PHP framework for web artisans. |
 
-[react]: https://github.com/facebook/react
-[react-status]: https://img.shields.io/npm/v/react.svg
-[react-package]: https://npmjs.com/package/react
-[redux]: https://github.com/reduxjs/redux
-[redux-status]: https://img.shields.io/npm/v/redux.svg
-[redux-package]: https://npmjs.com/package/redux
-[materialui]: https://github.com/mui-org/material-ui
-[materialui-status]: https://img.shields.io/npm/v/material-ui.svg
-[materialui-package]: https://npmjs.com/package/material-ui
-[babel]: https://github.com/babel/babel
-[babel-status]: https://img.shields.io/npm/v/babel.svg
-[babel-package]: https://npmjs.com/package/babel
-[webpack]: https://github.com/webpack/webpack
-[webpack-status]: https://img.shields.io/npm/v/webpack.svg
-[webpack-package]: https://npmjs.com/package/webpack
-[workbox]: https://github.com/googlechrome/workbox
-[workbox-status]: https://img.shields.io/npm/v/workbox.svg
-[workbox-package]: https://npmjs.com/package/workbox
-[prettier]: https://github.com/prettier/prettier
-[prettier-status]: https://img.shields.io/npm/v/prettier.svg
-[prettier-package]: https://npmjs.com/package/prettier
-[eslint]: https://github.com/eslint/eslint
-[eslint-status]: https://img.shields.io/npm/v/eslint.svg
-[eslint-package]: https://npmjs.com/package/eslint
+[laravel]: https://github.com/laravel/laravel
+[laravel-status]: https://travis-ci.org/laravel/framework.svg?branch=master
+[laravel-package]: https://packagist.org/packages/laravel/framework
 
 ## Folder Structure
 
