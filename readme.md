@@ -7,44 +7,134 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+# boilerplate-laravel-bootstrap
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+[![Build Status](https://travis-ci.org/basribasren/boilerplate-laravel-bootstrap.svg?branch=master)](https://travis-ci.org/basribasren/boilerplate-laravel-bootstrap) [![Build status](https://ci.appveyor.com/api/projects/status/weuboxr8dwbpp0q2?svg=true)](https://ci.appveyor.com/project/basribasren/boilerplate-laravel-bootstrap) [![dependencies Status](https://david-dm.org/basribasren/boilerplate-laravel-bootstrap/status.svg)](https://david-dm.org/basribasren/boilerplate-laravel-bootstrap) ![GitHub All Releases](https://img.shields.io/github/downloads/basribasren/boilerplate-laravel-bootstrap/total.svg) [![GitHub license](https://img.shields.io/github/license/basribasren/boilerplate-laravel-bootstrap.svg)](https://github.com/basribasren/boilerplate-laravel-bootstrap/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/basribasren/boilerplate-laravel-bootstrap.svg)](https://github.com/basribasren/boilerplate-laravel-bootstrap/commits/master)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+boilerplate for create web using laravel v5 with bootstrap admin theme.
+Tools : Laravel, Bootstrap, Webpack, compoers, artisan, bootstrap admin theme.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+## Ecosystem
 
-## Learning Laravel
+<!-- prettier-ignore -->
+| Project | Status | Description |
+|---------|--------|-------------|
+| [react]          | [![react-status]][react-package] | A declarative, efficient, and flexible JavaScript library for building user interfaces. |
+| [redux]          | [![redux-status]][redux-package] | Predictable state container for JavaScript apps. |
+| [materialui]          | [![materialui-status]][materialui-package] | React components that implement Google's Material Design. |
+| [babel]          | [![babel-status]][babel-package] | Babel is a compiler for writing next generation JavaScript. |
+| [webpack]          | [![webpack-status]][webpack-package] | A bundler for javascript and friends. |
+| [workbox]          | [![workbox-status]][workbox-package] | JavaScript libraries for Progressive Web Apps. |
+| [prettier]          | [![prettier-status]][prettier-package] | Prettier is an opinionated code formatter. |
+| [eslint]          | [![eslint-status]][eslint-package] | A fully pluggable tool for identifying and reporting on patterns in JavaScript. |
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+[react]: https://github.com/facebook/react
+[react-status]: https://img.shields.io/npm/v/react.svg
+[react-package]: https://npmjs.com/package/react
+[redux]: https://github.com/reduxjs/redux
+[redux-status]: https://img.shields.io/npm/v/redux.svg
+[redux-package]: https://npmjs.com/package/redux
+[materialui]: https://github.com/mui-org/material-ui
+[materialui-status]: https://img.shields.io/npm/v/material-ui.svg
+[materialui-package]: https://npmjs.com/package/material-ui
+[babel]: https://github.com/babel/babel
+[babel-status]: https://img.shields.io/npm/v/babel.svg
+[babel-package]: https://npmjs.com/package/babel
+[webpack]: https://github.com/webpack/webpack
+[webpack-status]: https://img.shields.io/npm/v/webpack.svg
+[webpack-package]: https://npmjs.com/package/webpack
+[workbox]: https://github.com/googlechrome/workbox
+[workbox-status]: https://img.shields.io/npm/v/workbox.svg
+[workbox-package]: https://npmjs.com/package/workbox
+[prettier]: https://github.com/prettier/prettier
+[prettier-status]: https://img.shields.io/npm/v/prettier.svg
+[prettier-package]: https://npmjs.com/package/prettier
+[eslint]: https://github.com/eslint/eslint
+[eslint-status]: https://img.shields.io/npm/v/eslint.svg
+[eslint-package]: https://npmjs.com/package/eslint
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## Folder Structure
 
-## Laravel Sponsors
+After creation, your project should look like this:
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+```
+my-app/
+├── node_modules/
+├── vendor/
+├── app/
+│   └── .../
+│   └── .../
+│   └── Http/
+│   └── .../
+│   └── User.php
+├── .../
+├── .../
+├── .../
+├── public/
+│   └── assets/
+├── resources/
+│   └── assets/
+│   	└── css/
+│   	└── js/
+│   	└── .../
+│   └── .../
+│   └── views/
+├── routes/
+├── .../
+├── .../
+├── composer.json
+├── package.json
+├── Procfile.js
+└── webpack.mix.js
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+```
 
-## Contributing
+## Available Scripts
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+In the project directory, you can run:
 
-## Security Vulnerabilities
+### `npm install`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Runs this command to install npm dependencies<br>
+result will in the `node_modules` folder
+
+### `composer install`
+
+Runs this command to install composer dependencies<br>
+result will in the `vendor` folder
+
+### `php artisan list`
+
+To view a list of all available Artisan commands, you may use the list command<br>
+to view list artisan command articel [Artisan Command](https://quickadminpanel.com/blog/list-of-16-artisan-make-commands-with-parameters/)
+
+### `npm run dev`
+
+Run webpack to create assets in public folder in development mode.<br>
+
+### `npm run watch`
+
+Run webpack to create assets in public folder in watch mode.<br>
+
+### `npm run hot`
+
+Builds the app for production to the `dist` folder.<br>
+
+### `npm run production`
+
+Run webpack to create assets in public folder in production mode<br>
+
+## Maintainers
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<img src="https://avatars0.githubusercontent.com/u/25193994?v=4" width="100px;"/><br /><sub><b>Basri Basren</b></sub>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Something Missing?
+
+If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/basribasren/boilerplate-react-redux/issues)
 
 ## License
 
