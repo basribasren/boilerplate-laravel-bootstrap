@@ -26,7 +26,7 @@ mix.autoload({
  |
  */
 // mix.sass('resources/assets/sass/bootstrap.scss', 'public/assets/')
-	// .sass('resources/assets/sass/font-awesome.scss', 'public/assets/stylesheets')
+mix.sass('resources/assets/sass/font-awesome.scss', 'public/assets/stylesheets');
 	// .copy('node_modules/metismenu/dist/metisMenu.min.css', 'public/assets/stylesheets/metismenu.css')
 	// mix.copy('node_modules/popper.js/dist/popper.js', 'public/assets/scripts')
 	// .copy('node_modules/chart.js/dist/Chart.js', 'public/assets/scripts');
