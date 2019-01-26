@@ -1,5 +1,15 @@
 let mix = require('laravel-mix');
 const webpack = require('webpack');
+/*
+ |--------------------------------------------------------------------------
+ | Mix Asset Management
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel application. By default, we are compiling the Sass
+ | file for the application as well as bundling up all the JS files.
+ |
+ */
 
 // mix.webpackConfig({
 //   plugins: [
@@ -15,21 +25,17 @@ mix.autoload({
  jquery: ['$', 'jQuery', 'window.jQuery'],
 });
 
+mix.sass('resources/assets/styles/index.scss', 'public/assets/stylesheets');
+mix.copyDirectory('resources/assets/static', 'public/assets/static');
+mix.js('resources/assets/scripts/index.js', 'public/assets/scripts/scripts.js');
+
 /*
  |--------------------------------------------------------------------------
- | Mix Asset Management
+ | Mix Asset Backup
  |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for the application as well as bundling up all the JS files.
- |
- */
+
 mix.sass('resources/assets/sass/bootstrap.scss', 'public/assets/stylesheets');
 mix.sass('resources/assets/sass/font-awesome.scss', 'public/assets/stylesheets');
-	// .copy('node_modules/metismenu/dist/metisMenu.min.css', 'public/assets/stylesheets/metismenu.css')
-	// mix.copy('node_modules/popper.js/dist/popper.js', 'public/assets/scripts')
-	// .copy('node_modules/chart.js/dist/Chart.js', 'public/assets/scripts');
 
 mix.styles([
 		'node_modules/metismenu/dist/metisMenu.css',
@@ -48,4 +54,5 @@ mix.js([
 	    'resources/assets/js/frontend.js'
 	], 'public/assets/scripts/scripts.js')
 	.version();
+ */
 

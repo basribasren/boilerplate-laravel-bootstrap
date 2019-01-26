@@ -12,57 +12,72 @@
 */
 
 Route::get('/dashboard', function () {
-    return view('home');
+    return view('container/content-dashboard');
+});
+
+Route::get('/email', function () {
+    return view('container/content-email');
+});
+
+Route::get('/compose', function () {
+    return view('container/content-compose');
+});
+
+Route::get('/calendar', function () {
+    return view('container/content-calendar');
+});
+
+Route::get('/chat', function () {
+    return view('container/content-chat');
 });
 
 Route::get('/charts', function () {
-    return view('mcharts');
-});
-
-Route::get('/tables', function () {
-    return view('table');
+    return view('container/content-charts');
 });
 
 Route::get('/forms', function () {
-    return view('form');
+    return view('container/content-form');
 });
 
-Route::get('/panels', function () {
-    return view('panel');
+Route::get('/ui', function () {
+    return view('container/content-ui');
 });
 
-Route::get('/buttons', function () {
-    return view('buttons');
+Route::get('/table/basic', function () {
+    return view('container/content-tablebasic');
 });
 
-Route::get('/notifications', function () {
-    return view('notifications');
+Route::get('/table/advanced', function () {
+    return view('container/content-tableadvanced');
 });
 
-Route::get('/typography', function () {
-    return view('typography');
+Route::get('/map/google', function () {
+    return view('container/content-mapgoogle');
 });
 
-Route::get('/icons', function () {
-    return view('icons');
-});
-
-Route::get('/grid', function () {
-    return view('grid');
+Route::get('/map/vektor', function () {
+    return view('container/content-mapvektor');
 });
 
 Route::get('/blank', function () {
-    return view('blank');
+    return view('container/content-blank');
 });
 
-Route::get('/documentation', function () {
-    return view('documentation');
+Route::get('/404', function () {
+    return view('container/content-error404');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/500', function () {
+    return view('container/content-error500');
 });
 
+Route::get('/signin', function () {
+    return view('container/content-signin');
+});
+
+Route::get('/signup', function () {
+    return view('container/content-signup');
+});
 /*
 |--------------------------------------------------------------------------
 | Web Routes
