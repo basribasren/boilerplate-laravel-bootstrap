@@ -89,6 +89,6 @@ Route::get('/signup', function () {
 |
 */
 
-Route::get('/landing', function () {
+Route::get('/', function () {
     return view('container/landing-page');
 });
