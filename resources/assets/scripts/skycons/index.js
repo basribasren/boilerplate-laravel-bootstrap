@@ -1,4 +1,5 @@
-import SkyconsInit from 'skycons';
+// import SkyconsInit from 'skycons';
+const SkyconsInit = require('skycons');
 
 const Skycons = SkyconsInit(window);
 

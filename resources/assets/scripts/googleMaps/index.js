@@ -1,4 +1,4 @@
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 import loadGoogleMapsAPI  from 'load-google-maps-api';
 
 export default (function () {

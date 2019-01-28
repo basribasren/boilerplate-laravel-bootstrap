@@ -1,0 +1,20 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+	font-family: 'themify';
+	src:url('../../../../node_modules/themify-icons/themify-icons/fonts/themify.eot?-fvbane');
+	src:url('../../../../node_modules/themify-icons/themify-icons/fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('../../../../node_modules/themify-icons/themify-icons/fonts/themify.woff?-fvbane') format('woff'),
+		url('../../../../node_modules/themify-icons/themify-icons/fonts/themify.ttf?-fvbane') format('truetype'),
+		url('../../../../node_modules/themify-icons/themify-icons/fonts/themify.svg?-fvbane#themify') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@import "themify-icons/themify-icons/_variables.scss";
+@import "themify-icons/themify-icons/_mixins.scss";
+@import "themify-icons/themify-icons/_core.scss";
+@import "themify-icons/themify-icons/_extras.scss";
+@import "themify-icons/themify-icons/_icons.scss";

@@ -1,8 +1,9 @@
-import * as $ from 'jquery';
-import 'jvectormap-next';
+// import * as $ from 'jquery';
+import 'jvectormap-next/jquery-jvectormap.min.js';
 import 'jvectormap-next/jquery-jvectormap.css';
 import './jquery-jvectormap-world-mill.js';
-import { debounce } from 'lodash';
+// import { debounce } from 'lodash';
+const { debounce } = require('lodash');
 
 export default (function () {
   const vectorMapInit = () => {

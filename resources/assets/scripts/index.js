@@ -1,8 +1,7 @@
 // import '../styles/index.scss';
 
 import './masonry';
-import './charts';
-import './popover';
+// import './popover'; make error
 import './scrollbar';
 import './search';
 import './sidebar';
@@ -14,4 +13,5 @@ import './datepicker';
 import './email';
 import './fullcalendar';
 import './googleMaps';
-import './utils';
+import './utils'; 
+import './charts';

@@ -1,5 +1,6 @@
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 import PerfectScrollbar from 'perfect-scrollbar';
+// const PerfectScrollbar = require('perfect-scrollbar');
 
 export default (function () {
   const scrollables = $('.scrollable');

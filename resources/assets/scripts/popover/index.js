@@ -1,5 +1,5 @@
-import * as $ from 'jquery';
-import 'bootstrap';
+// import * as $ from 'jquery';
+// import 'bootstrap';
 
 export default (function () {
   // ------------------------------------------------------

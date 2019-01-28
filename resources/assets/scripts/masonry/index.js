@@ -1,5 +1,5 @@
-import * as $ from 'jquery';
-import Masonry from 'masonry-layout';
+// import * as $ from 'jquery';
+import Masonry from 'masonry-layout/masonry.js';
 
 export default (function () {
   window.addEventListener('load', () => {

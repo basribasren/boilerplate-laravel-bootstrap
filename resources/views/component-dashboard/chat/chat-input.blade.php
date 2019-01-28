@@ -1,0 +1,1 @@
+@include('component-dashboard.widgets.chat-input')
