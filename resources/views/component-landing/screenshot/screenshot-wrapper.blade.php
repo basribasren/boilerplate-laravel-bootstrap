@@ -10,6 +10,7 @@
                         'class'=> 'section-heading'
                     )
                 )
+            </div>
         </div>
     </div>
     <div class="container-fluid">

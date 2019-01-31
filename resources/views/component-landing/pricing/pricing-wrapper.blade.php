@@ -21,12 +21,14 @@
                         'id'=>'asdo987wer9876fgdf', 
                         'title'=>'Starter Plan',
                         'price'=>29,
-                        'description'=>'
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>'
+                        'active' => '',
+                        'descriptions'=>[
+                            'Up to 10 users monthly',
+                            'Unlimited updates',
+                            'Free host &amp; domain',
+                            '24/7 Support',
+                            '10 Unique Users'
+                        ]
                     )
                 )
             </div>
@@ -37,12 +39,14 @@
                         'id'=>'asdo987wer9876fgdf', 
                         'title'=>'Basic Plan',
                         'price'=>29,
-                        'description'=>'
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>'
+                        'active' => '',
+                        'descriptions'=>[
+                            'Up to 10 users monthly',
+                            'Unlimited updates',
+                            'Free host &amp; domain',
+                            '24/7 Support',
+                            '10 Unique Users'
+                        ]
                     )
                 )
             </div>
@@ -53,12 +57,14 @@
                         'id'=>'asdo987wer9876fgdf', 
                         'title'=>'Advenced Plan',
                         'price'=>29,
-                        'description'=>'
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>'
+                        'active' => 'active',
+                        'descriptions'=>[
+                            'Up to 10 users monthly',
+                            'Unlimited updates',
+                            'Free host &amp; domain',
+                            '24/7 Support',
+                            '10 Unique Users'
+                        ]
                     )
                 )
             </div>
@@ -69,12 +75,14 @@
                         'id'=>'asdo987wer9876fgdf', 
                         'title'=>'Community Plan',
                         'price'=>29,
-                        'description'=>'
-                        <p>Up to 10 users monthly</p>
-                        <p>Unlimited updates</p>
-                        <p>Free host &amp; domain</p>
-                        <p>24/7 Support</p>
-                        <p>10 Unique Users</p>'
+                        'active' => '',
+                        'descriptions'=>[
+                            'Up to 10 users monthly',
+                            'Unlimited updates',
+                            'Free host &amp; domain',
+                            '24/7 Support',
+                            '10 Unique Users'
+                        ]
                     )
                 )
             </div>

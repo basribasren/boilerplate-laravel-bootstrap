@@ -16,15 +16,13 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/bootstrap.css") }}" />
-    <!-- <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/font-awesome.css") }}" /> -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/themify-icons.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/animate.css") }}" />
-    <!-- <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/ionicons.css") }}" /> -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/magnific-popup.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/owl.carousel.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/responsive.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/slick.css") }}" />
-    <link rel="stylesheet" href="{{ asset("assets/stylesheets/landing/style.css") }}" />
+    <link rel="stylesheet" href="{{ asset("assets/stylesheets/landing/index.css") }}" />
 </head>
 
 <body>
@@ -36,12 +34,9 @@
     @yield('content')
 
     <script src="{{ asset("assets/scripts/vendor/jquery.js") }}" type="text/javascript"></script>
-    <script src="{{ asset("assets/scripts/vendor/bootstrap.js") }}" type="text/javascript"></script>
     <script src="{{ asset("assets/scripts/vendor/popper.js") }}" type="text/javascript"></script>
+    <script src="{{ asset("assets/scripts/vendor/bootstrap.js") }}" type="text/javascript"></script>
     <script src="{{ asset("assets/scripts/landing/index.js") }}" type="text/javascript"></script>
-    <!-- <script src="{{ asset("assets/scripts/landing/slick.min.js") }}" type="text/javascript"></script> -->
-    <!-- <script src="{{ asset("assets/scripts/landing/footer-reveal.min.js") }}" type="text/javascript"></script> -->
-    <!-- <script src="{{ asset("assets/scripts/landing/plugins.js") }}" type="text/javascript"></script> -->
 </body>
 
 </html>

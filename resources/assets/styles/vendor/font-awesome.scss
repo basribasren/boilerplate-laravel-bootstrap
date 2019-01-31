@@ -23,15 +23,15 @@
   font-weight: 900;
 }
 
-@import '@fortawesome/fontawesome-free/scss/_variables.scss';
-@import '@fortawesome/fontawesome-free/scss/_mixins.scss';
-@import '@fortawesome/fontawesome-free/scss/_core.scss';
-// @import '@fortawesome/fontawesome-free/scss/_larger.scss';
-// @import '@fortawesome/fontawesome-free/scss/_fixed-width.scss';
-// @import '@fortawesome/fontawesome-free/scss/_list.scss';
-// @import '@fortawesome/fontawesome-free/scss/_bordered-pulled.scss';
-// @import '@fortawesome/fontawesome-free/scss/_animated.scss';
-// @import '@fortawesome/fontawesome-free/scss/_rotated-flipped.scss';
-// @import '@fortawesome/fontawesome-free/scss/_stacked.scss';
-@import '@fortawesome/fontawesome-free/scss/_icons.scss';
-// @import '@fortawesome/fontawesome-free/scss/_screen-reader.scss';
+@import '~@fortawesome/fontawesome-free/scss/variables';
+@import '~@fortawesome/fontawesome-free/scss/mixins';
+@import '~@fortawesome/fontawesome-free/scss/core';
+// @import '~@fortawesome/fontawesome-free/scss/larger';
+// @import '~@fortawesome/fontawesome-free/scss/fixed-width';
+// @import '~@fortawesome/fontawesome-free/scss/list';
+// @import '~@fortawesome/fontawesome-free/scss/bordered-pulled';
+// @import '~@fortawesome/fontawesome-free/scss/animated';
+// @import '~@fortawesome/fontawesome-free/scss/rotated-flipped';
+// @import '~@fortawesome/fontawesome-free/scss/stacked';
+@import '~@fortawesome/fontawesome-free/scss/icons';
+// @import '~@fortawesome/fontawesome-free/scss/screen-reader';

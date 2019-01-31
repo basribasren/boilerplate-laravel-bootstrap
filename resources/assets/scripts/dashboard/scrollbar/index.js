@@ -1,6 +1,5 @@
 // import * as $ from 'jquery';
 import PerfectScrollbar from 'perfect-scrollbar';
-// const PerfectScrollbar = require('perfect-scrollbar');
 
 export default (function () {
   const scrollables = $('.scrollable');
@@ -8,5 +7,5 @@ export default (function () {
     scrollables.each((index, el) => {
       new PerfectScrollbar(el);
     });
-  }
+  };
 }());

@@ -1,9 +1,9 @@
-// import owlCarousel from 'owl.carousel/dist/owl.carousel'
-import owlCarousel from 'owl.carousel';
-import 'slick/index.js';
+import './slick.min.js';
 import './jquery.footer-reveal.js';
-import './jquery.scroll-up.js'
-import 'waypoints/lib/jquery.waypoints.js';
+import './jquery.easing.js';
+import owlCarousel from 'owl.carousel';
+import './jquery.scroll-up.js';
+import './jquery.waypoints.js';
 import './jquery.counter-up.js';
 import './jquery.one-page-nav.js';
 import './jquery.magnific-popup';

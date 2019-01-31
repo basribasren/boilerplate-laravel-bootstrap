@@ -61,12 +61,9 @@
   </style>
 
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/bootstrap.css") }}" />
-    <!-- <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/bootstrap-datepicker.css") }}" /> -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/font-awesome.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/themify-icons.css") }}" />
-    <!-- <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/fullcalendar.css") }}" /> -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/jquery.dataTables.css") }}" />
-    <!-- <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/perfect-scrollbar.css") }}" /> -->
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/vendor/sparkline.css") }}" />
     <link rel="stylesheet" href="{{ asset("assets/stylesheets/dashboard/index.css") }}" />
 </head>

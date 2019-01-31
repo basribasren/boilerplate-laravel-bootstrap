@@ -1,5 +1,5 @@
 <!-- Package Price  -->
-<div class="single-price-plan text-center">
+<div class="single-price-plan {{ $active }} text-center">
     <!-- Package Text  -->
     <div class="package-plan">
         <h5>{{ $title }}</h5>
@@ -9,7 +9,9 @@
         </div>
     </div>
     <div class="package-description">
-        {{ $description }}
+        @foreach ($descriptions as $description)
+            <p>{{ $description }}</p>
+        @endforeach
     </div>
     <!-- Plan Button  -->
     <div class="plan-button">

@@ -17345,7 +17345,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\node_modules\bootstrap\dist\js\bootstrap.js */"./node_modules/bootstrap/dist/js/bootstrap.js");
+module.exports = __webpack_require__(/*! C:\xampp-backup\htdocs\boilerplate-laravel-nginx\html\laravel\node_modules\bootstrap\dist\js\bootstrap.js */"./node_modules/bootstrap/dist/js/bootstrap.js");
 
 
 /***/ })

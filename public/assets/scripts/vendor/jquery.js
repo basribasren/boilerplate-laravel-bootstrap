@@ -10462,110 +10462,14 @@ return jQuery;
 
 /***/ }),
 
-/***/ "./resources/assets/landing/css/magnific-popup.scss":
-/*!**********************************************************!*\
-  !*** ./resources/assets/landing/css/magnific-popup.scss ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/landing/css/owl.carousel.scss":
-/*!********************************************************!*\
-  !*** ./resources/assets/landing/css/owl.carousel.scss ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/landing/style.scss":
-/*!*********************************************!*\
-  !*** ./resources/assets/landing/style.scss ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/styles/index.scss":
-/*!********************************************!*\
-  !*** ./resources/assets/styles/index.scss ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/styles/vendor/bootstrap.scss":
-/*!*******************************************************!*\
-  !*** ./resources/assets/styles/vendor/bootstrap.scss ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/styles/vendor/font-awesome.scss":
-/*!**********************************************************!*\
-  !*** ./resources/assets/styles/vendor/font-awesome.scss ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/styles/vendor/sparkline.scss":
-/*!*******************************************************!*\
-  !*** ./resources/assets/styles/vendor/sparkline.scss ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/assets/styles/vendor/themify-icons.scss":
-/*!***********************************************************!*\
-  !*** ./resources/assets/styles/vendor/themify-icons.scss ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./node_modules/jquery/dist/jquery.js ./resources/assets/styles/vendor/bootstrap.scss ./resources/assets/styles/vendor/themify-icons.scss ./resources/assets/styles/vendor/font-awesome.scss ./resources/assets/styles/vendor/sparkline.scss ./resources/assets/landing/css/magnific-popup.scss ./resources/assets/landing/css/owl.carousel.scss ./resources/assets/styles/index.scss ./resources/assets/landing/style.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************!*\
+  !*** multi ./node_modules/jquery/dist/jquery.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\node_modules\jquery\dist\jquery.js */"./node_modules/jquery/dist/jquery.js");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\styles\vendor\bootstrap.scss */"./resources/assets/styles/vendor/bootstrap.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\styles\vendor\themify-icons.scss */"./resources/assets/styles/vendor/themify-icons.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\styles\vendor\font-awesome.scss */"./resources/assets/styles/vendor/font-awesome.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\styles\vendor\sparkline.scss */"./resources/assets/styles/vendor/sparkline.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\landing\css\magnific-popup.scss */"./resources/assets/landing/css/magnific-popup.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\landing\css\owl.carousel.scss */"./resources/assets/landing/css/owl.carousel.scss");
-__webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\styles\index.scss */"./resources/assets/styles/index.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\boilerplate-laravel-nginx\html\laravel\resources\assets\landing\style.scss */"./resources/assets/landing/style.scss");
+module.exports = __webpack_require__(/*! C:\xampp-backup\htdocs\boilerplate-laravel-nginx\html\laravel\node_modules\jquery\dist\jquery.js */"./node_modules/jquery/dist/jquery.js");
 
 
 /***/ })

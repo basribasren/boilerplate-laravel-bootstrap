@@ -3,17 +3,5 @@
     "/assets/scripts/landing/index.js": "/assets/scripts/landing/index.js",
     "/assets/scripts/vendor/bootstrap.js": "/assets/scripts/vendor/bootstrap.js",
     "/assets/scripts/vendor/jquery.js": "/assets/scripts/vendor/jquery.js",
-    "/assets/stylesheets/vendor/bootstrap.css": "/assets/stylesheets/vendor/bootstrap.css",
-    "/assets/stylesheets/vendor/themify-icons.css": "/assets/stylesheets/vendor/themify-icons.css",
-    "/assets/stylesheets/vendor/font-awesome.css": "/assets/stylesheets/vendor/font-awesome.css",
-    "/assets/stylesheets/vendor/sparkline.css": "/assets/stylesheets/vendor/sparkline.css",
-    "/assets/stylesheets/vendor/magnific-popup.css": "/assets/stylesheets/vendor/magnific-popup.css",
-    "/assets/stylesheets/vendor/owl.carousel.css": "/assets/stylesheets/vendor/owl.carousel.css",
-    "/assets/stylesheets/dashboard/index.css": "/assets/stylesheets/dashboard/index.css",
-    "/assets/stylesheets/landing/style.css": "/assets/stylesheets/landing/style.css",
-    "/assets/scripts/vendor/popper.js": "/assets/scripts/vendor/popper.js",
-    "/assets/stylesheets/vendor/jquery.dataTables.css": "/assets/stylesheets/vendor/jquery.dataTables.css",
-    "/assets/stylesheets/vendor/animate.css": "/assets/stylesheets/vendor/animate.css",
-    "/assets/stylesheets/vendor/responsive.css": "/assets/stylesheets/vendor/responsive.css",
-    "/assets/stylesheets/vendor/slick.css": "/assets/stylesheets/vendor/slick.css"
+    "/assets/scripts/vendor/popper.js": "/assets/scripts/vendor/popper.js"
 }

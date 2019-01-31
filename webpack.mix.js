@@ -30,25 +30,25 @@ mix.autoload({
  |--------------------------------------------------------------------------
 */
 /* | Mix Asset Style Vendor - dashboard */
-mix.sass('resources/assets/styles/vendor/bootstrap.scss', 'public/assets/stylesheets/vendor');
-mix.sass('resources/assets/styles/vendor/themify-icons.scss', 'public/assets/stylesheets/vendor');
-mix.sass('resources/assets/styles/vendor/font-awesome.scss', 'public/assets/stylesheets/vendor');
-mix.sass('resources/assets/styles/vendor/sparkline.scss', 'public/assets/stylesheets/vendor');
-mix.copy('node_modules/datatables/media/css/jquery.dataTables.css', 'public/assets/stylesheets/vendor');
-mix.copyDirectory('node_modules/datatables/media/images', 'public/assets/images');
+// mix.sass('resources/assets/styles/vendor/bootstrap.scss', 'public/assets/stylesheets/vendor');
+// mix.sass('resources/assets/styles/vendor/themify-icons.scss', 'public/assets/stylesheets/vendor');
+// mix.sass('resources/assets/styles/vendor/font-awesome.scss', 'public/assets/stylesheets/vendor');
+// mix.sass('resources/assets/styles/vendor/sparkline.scss', 'public/assets/stylesheets/vendor');
+// mix.copy('node_modules/datatables/media/css/jquery.dataTables.css', 'public/assets/stylesheets/vendor');
+// mix.copyDirectory('node_modules/datatables/media/images', 'public/assets/images');
 
 /* | Mix Asset Style Vendor - landing */
-mix.copy('resources/assets/landing/css/animate.css', 'public/assets/stylesheets/vendor');
-mix.sass('resources/assets/landing/css/magnific-popup.scss', 'public/assets/stylesheets/vendor');
-mix.sass('resources/assets/landing/css/owl.carousel.scss', 'public/assets/stylesheets/vendor');
-mix.copy('resources/assets/landing/css/responsive.css', 'public/assets/stylesheets/vendor');
-mix.copy('resources/assets/landing/css/slick.css', 'public/assets/stylesheets/vendor');
+// mix.copy('resources/assets/styles/vendor/animate.css', 'public/assets/stylesheets/vendor');
+// mix.sass('resources/assets/styles/vendor/magnific-popup.scss', 'public/assets/stylesheets/vendor');
+// mix.sass('resources/assets/styles/vendor/owl.carousel.scss', 'public/assets/stylesheets/vendor');
+// mix.copy('resources/assets/styles/vendor/responsive.css', 'public/assets/stylesheets/vendor');
+// mix.copy('resources/assets/styles/vendor/slick.css', 'public/assets/stylesheets/vendor');
 
 /* | Mix Asset Style Dashboard */
-mix.sass('resources/assets/styles/index.scss', 'public/assets/stylesheets/dashboard');
+// mix.sass('resources/assets/styles/dashboard/index.scss', 'public/assets/stylesheets/dashboard');
 
 /* | Mix Asset Style Landing */
-mix.sass('resources/assets/landing/style.scss', 'public/assets/stylesheets/landing');
+// mix.sass('resources/assets/styles/landing/index.scss', 'public/assets/stylesheets/landing');
 
 /*
  |--------------------------------------------------------------------------
@@ -61,10 +61,10 @@ mix.js('node_modules/bootstrap/dist/js/bootstrap.js', 'public/assets/scripts/ven
 mix.js('node_modules/popper.js/dist/popper.js', 'public/assets/scripts/vendor');
 
 /* | Mix Asset Script Dashboard */
-mix.js('resources/assets/scripts/index.js', 'public/assets/scripts/dashboard');
+mix.js('resources/assets/scripts/dashboard/index.js', 'public/assets/scripts/dashboard');
 
 /* | Mix Asset Script Landing */
-mix.js('resources/assets/landing/js/index.js', 'public/assets/scripts/landing');
+mix.js('resources/assets/scripts/landing/index.js', 'public/assets/scripts/landing');
 
 /*
  |--------------------------------------------------------------------------
