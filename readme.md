@@ -5,6 +5,10 @@
 boilerplate for create web using laravel v5 with bootstrap admin theme.
 Tools : Laravel, Bootstrap, Webpack, compoers, artisan, bootstrap admin theme.
 
+## Available Link
+To see Demo of `ColorLib App Landing Page Theme` you can accses this link : https://boilerplate-laravel-dashboard.herokuapp.com/
+To see Demo of `Adminator Dashboard Theme`, you can accses this link : https://boilerplate-laravel-dashboard.herokuapp.com/dashboard
+
 ## Ecosystem
 
 <!-- prettier-ignore -->
