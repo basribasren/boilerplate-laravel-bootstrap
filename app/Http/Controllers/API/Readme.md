@@ -1,0 +1,1 @@
+https://codeburst.io/generate-beautiful-restful-laravel-api-documentation-with-swagger-a9df486e0368?gi=355e95a0ebd2

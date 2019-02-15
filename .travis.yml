@@ -29,7 +29,7 @@ notifications:
     on_success: never # default: change
     on_failure: always # default: always
 
-# after_success:
+# after_success: ~
 
 # before_deploy:
 

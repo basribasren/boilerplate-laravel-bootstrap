@@ -1,0 +1,119 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Core API",
+        "version": "1.0.0"
+    },
+    "basePath": "/api",
+    "paths": {
+        "/signin": {
+            "post": {
+                "summary": "Signin",
+                "parameters": [
+                    {
+                        "name": "data",
+                        "in": "body",
+                        "description": "Input username and password",
+                        "required": true,
+                        "schema": {
+                            "property": "request",
+                            "type": "json",
+                            "example": {
+                                "username": "basribasren",
+                                "password": "secrettt"
+                            }
+                        }
+                    },
+                    {
+                        "name": "x-api-key",
+                        "in": "header",
+                        "description": "api key validation",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    },
+                    "401": {
+                        "description": "not authorized"
+                    },
+                    "500": {
+                        "description": "internal server error"
+                    }
+                }
+            }
+        },
+        "/signup": {
+            "post": {
+                "summary": "Signup",
+                "parameters": [
+                    {
+                        "name": "data",
+                        "in": "body",
+                        "description": "Input account data for signup",
+                        "required": true,
+                        "schema": {
+                            "property": "request",
+                            "type": "json",
+                            "example": {
+                                "username": "basribasren",
+                                "email": "basri@gmail.com",
+                                "password": "secrettt",
+                                "role": "admin"
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    },
+                    "401": {
+                        "description": "not authorized"
+                    },
+                    "500": {
+                        "description": "internal server error"
+                    }
+                }
+            }
+        },
+        "/signout": {
+            "get": {
+                "summary": "Signout",
+                "parameters": [
+                    {
+                        "name": "x-api-key",
+                        "in": "header",
+                        "description": "api key validation",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    },
+                    "401": {
+                        "description": "not authorized"
+                    },
+                    "500": {
+                        "description": "internal server error"
+                    }
+                }
+            }
+        },
+        "/sample": {
+            "get": {
+                "summary": "Sample",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
