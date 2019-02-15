@@ -8,6 +8,7 @@ Tools : Laravel, Bootstrap, Webpack, compoers, artisan, bootstrap admin theme.
 ## Available Link
 To see Demo of `ColorLib App Landing Page Theme` you can accses this link : https://boilerplate-laravel-dashboard.herokuapp.com/ <br>
 To see Demo of `Adminator Dashboard Theme`, you can accses this link : https://boilerplate-laravel-dashboard.herokuapp.com/dashboard <br>
+To see Demo of `Swagger Documentation Api`, you can accses this link : https://boilerplate-laravel-dashboard.herokuapp.com/api/documentation <br>
 
 ## Ecosystem
 
