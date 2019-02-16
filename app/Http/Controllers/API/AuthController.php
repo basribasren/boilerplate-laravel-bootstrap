@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\Controller;
+use App\User;
 
 class AuthController extends Controller
 {
@@ -43,7 +44,7 @@ class AuthController extends Controller
      * Do a Signin to sistem.
      * 
      */
-    public function signin(Request $request, User $user)
+    public function signin(Request $request)
     {
         $this->validate($request, [
             'email' => 'required|string|email|max:255',
@@ -58,7 +59,7 @@ class AuthController extends Controller
         // attempt to do the login
         if (Auth::attempt($userdata)) {
 
-            $user = $user->find(Auth::user()->id);
+            $user = User::find(Auth::user()->id);
 
             return fractal()
                ->item($user)
@@ -109,7 +110,7 @@ class AuthController extends Controller
      * Do a Signup to sistem.
      * 
      */
-    public function signup(Request $request, User $user)
+    public function signup(Request $request)
     {
     	$this->validate($request, [
             'name' => 'required|string|max:255',
@@ -118,7 +119,7 @@ class AuthController extends Controller
             'role'=> 'required|string'
     	]);
 
-    	$user->create([
+    	User::create([
     		'name' => $request->name,
     		'email' => $request->email,
     		'role' => $request->role,

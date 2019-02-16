@@ -103,4 +103,5 @@ Route::get('/', function () {
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::resource('sevima/materi', 'Web\MateriController');
 

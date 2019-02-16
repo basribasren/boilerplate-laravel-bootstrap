@@ -17,8 +17,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('signup', 'API\AuthController@signup');
-Route::post('signin', 'API\AuthController@signin');
-Route::get('signout', 'API\AuthController@signout');
+Route::post('signup', 'Api\AuthController@signup');
+Route::post('signin', 'Api\AuthController@signin');
+Route::get('signout', 'Api\AuthController@signout');
 
-Route::resource('sample', 'SampleController');
+Route::resource('materi', 'Api\MateriController');

@@ -1,27 +1,48 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Web;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
+use App\Http\Controllers\Controller;
+use App\Materi;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
 
-
-class SampleController extends Controller
+class MateriController extends Controller
 {
     /**
-     * @SWG\Get(
-     *   path="/sample",
-     *   summary="Sample",
-     *   @SWG\Response(response=200, description="successful operation")
-     * )
+     * Create a new controller instance.
      *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => ['index', 'show']]);
+    }
+    
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        return response()->json('Ok');
+        // $client = new Client(['base_uri' => 'http://localhost:8000/']);  
+        // $client = new Client(['base_uri' => 'https://jsonplaceholder.typicode.com/']);  
+        // $response = $client->request('GET', 'api/materi/1'); 
+        // $response = $client->request('GET', 'todos/1'); 
+        // $body = $response->getBody();
+        // $content =$body->getContents();
+        // $arr = json_decode($content,TRUE);
+        // echo"<pre>";
+        // print_r(get_class_methods($response));
+        // print_r(get_class_methods($body));
+        // print_r($arr);
+        // echo"</pre>";
+        //dd(json_decode($content,true));
+        // return $arr;
+        $materi = Materi::orderBy('created_at','desc')->paginate(10);
+        return view('container.sevima.materi-index')->with('payload', $materi);
     }
 
     /**
@@ -53,7 +74,8 @@ class SampleController extends Controller
      */
     public function show($id)
     {
-        //
+        $materi = Materi::find($id);
+        return view('container.sevima.materi-detail')->with('payload', $materi);
     }
 
     /**
